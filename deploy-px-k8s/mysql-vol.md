@@ -11,9 +11,19 @@ kubectl create -f mysql-sc.yaml
 ```
 kubectl create -f mysql-pvc.yaml
 
-sleep 2
+echo "Checking if the PersistentVolumeClaim was created successfully..."
 
-kubectl get pvc px-mysql-pvc
+while true; do
+    PVC_STATUS=`kubectl get pvc px-mysql-pvc | grep -v NAME | awk '{print $2}'`
+    if [ "${PVC_STATUS}" == "Bounc" ]; then
+        echo "px-mysql-pvc is ${PVC_STATUS} !"
+        kubectl get pvc px-mysql-pvc
+        break
+    else
+        echo "Waiting for px-mysql-pvc to Bounc..."
+    fi
+    sleep 2
+done
 ```{{execute HOST1}}
 
 
