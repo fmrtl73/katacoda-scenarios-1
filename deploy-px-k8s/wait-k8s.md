@@ -1,6 +1,6 @@
 We will be using a 2-node Kubernetes cluster for this scenario. Before install Portworx, let's ensure Kubernetes nodes are ready.
 
-### Wait for Kubernetes nodes to be ready
+### Step: Wait for Kubernetes nodes to be ready
 
 * It can take a few minutes for this*
 

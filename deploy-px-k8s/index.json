@@ -58,6 +58,6 @@
     },
     "backend": {
         "port": 8080,
-        "imageid": "kubernetes-cluster2-running"
+        "imageid": "storageos-docker-3node"
     }
 }
