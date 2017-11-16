@@ -20,13 +20,13 @@ kubectl get pods -l app=mysql -o wide
 ### Step: Initialize a sample db
 
 ```
-POD=`kubectl get pods -l app=mysql | grep -v Running | awk '{print $1}'`
+POD=`kubectl get pods -l app=mysql | grep  Running | awk '{print $1}'`
 sleep 10
-kubectl exec -it $POD -- mysql --user=root --password=mysql123;\
+kubectl exec -it $POD -- 'mysql --user=root --password=mysql123;\
  create database pxdemo;\
   use pxdemo;\
    create table grapevine (counter int unsigned);\
     show tables;\
-     quit;
+     quit;'
 ```{{execute HOST1}}
 
