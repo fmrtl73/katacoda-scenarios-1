@@ -29,6 +29,8 @@ spec:
             secretKeyRef:
               name: mysql-pass
               key: password.txt
+        - name: MYSQL_DATABASE
+          value: pxdemo
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
             secretKeyRef:
