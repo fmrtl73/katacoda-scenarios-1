@@ -27,7 +27,7 @@ spec:
       schedulerName: stork
       containers:
       - name: cassandra
-        image: launcher.gcr.io/google/cassandra3
+        image: gcr.io/google-samples/cassandra:v14
         imagePullPolicy: Always
         ports:
         - containerPort: 7000
