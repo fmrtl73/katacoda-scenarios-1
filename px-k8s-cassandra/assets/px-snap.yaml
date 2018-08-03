@@ -3,5 +3,8 @@ kind: VolumeSnapshot
 metadata:
   name: px-cassandra-snapshot
   namespace: default
+  annotations:
+    portworx/pre-snap-command: "nodetool flush"
+    portworx.selector/group-id: cassandra_vg
 spec:
-  persistentVolumeClaimName: px-cassandra-pvc
+  persistentVolumeClaimName: cassandra-data-cassandra-0
