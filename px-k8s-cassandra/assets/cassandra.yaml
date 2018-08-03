@@ -102,3 +102,16 @@ spec:
       resources:
         requests:
           storage: 1Gi
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cqlsh
+spec:
+  containers:
+  - name: cqlsh
+    image: mikewright/cqlsh
+    command:
+      - sh
+      - -c
+      - "exec tail -f /dev/null"
