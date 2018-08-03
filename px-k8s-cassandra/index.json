@@ -11,8 +11,11 @@
                 "text": "1.wait-k8s-px.md"
             },
             {
+                "title" : "Create Cassandra StorageClass",
+                "text": "2.create-vol.md"
+            },
+            {
                 "title" : "Deploy cassandra",
-                "courseData": "background.sh",
                 "text": "3.cassandra-app.md"
             },
             {
