@@ -2,8 +2,10 @@
 
 In this tutorial, you will learn how to deploy MySQL to Kubernetes and use Portworx Volumes to provide HA capability:
 * Use the Portworx Storage Class to create a PVC with 3 replicas of the data
-* Use a simple YAML file to deploy PostgreSQL using this storage class
-* How to validate data persistence by deleting the PostgreSQL pod
+* Use a simple YAML file to deploy MySQL using this storage class
+* How to validate data persistence by deleting the MySQL pod
+* How to dynamically expand storage volumes
+* How to take snapshots and restore them
 
 ### Step: Deploy MySQL and perform failover test
 
@@ -21,7 +23,7 @@ In this step we will create a snapshot of the database, drop all of our tables, 
 
 ### Other things you should know
 
-To learn more about how why running PostgreSQL on Portworx is a great idea take a look at the following links:
+To learn more about how why running MySQL on Portworx is a great idea take a look at the following links:
 * [Introduction to Portworx](https://portworx.com/products/introduction/)
 * [Customer Stories](https://portworx.com/customers/)
 * [STORK open source project](https://portworx.com/stork-storage-orchestration-kubernetes/).
