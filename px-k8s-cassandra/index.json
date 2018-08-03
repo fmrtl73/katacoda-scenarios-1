@@ -35,16 +35,16 @@
                 "text": "7.cassandra-check-data.md"
             },
             {
-                "title" : "Expand the volume",
-                "text": "9.expand-volume.md"
+                "title" : "Scale the cluster",
+                "text": "8.scale.md"
             },
             {
-                "title" : "Snapshots",
-                "text": "10.snapshots.md"
+                "title" : "Take a snapshot",
+                "text": "8.snapshots.md"
             },
             {
-                "title" : "Validate",
-                "text": "11.snapshot-restore.md"
+                "title" : "Restore the snapshot",
+                "text": "10.snapshot-restore.md"
             }
         ],
         "intro": {
