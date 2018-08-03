@@ -11,12 +11,12 @@
                 "text": "1.wait-k8s-px.md"
             },
             {
-                "title" : "Create volume for mysqlQL",
+                "title" : "Create volume for MySQL",
                 "courseData": "background.sh",
                 "text": "2.px-mysql-vol.md"
             },
             {
-                "title" : "Deploy mysql",
+                "title" : "Deploy MySQL",
                 "text": "3.mysql-app.md"
             },
             {
@@ -24,15 +24,15 @@
                 "text": "4.px-vol-inspect.md"
             },
             {
-                "title" : "Create mysql database",
+                "title" : "Create MySQL database",
                 "text": "5.mysql-db.md"
             },
             {
-                "title" : "Delete mysql instance",
+                "title" : "Delete MySQL instance",
                 "text": "6.mysql-persistence.md"
             },
             {
-                "title" : "Validate mysql database",
+                "title" : "Validate MySQL database",
                 "text": "7.mysql-check-data.md"
             },
             {
