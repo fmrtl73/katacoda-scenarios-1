@@ -37,14 +37,6 @@
             {
                 "title" : "Scale the cluster",
                 "text": "8.scale.md"
-            },
-            {
-                "title" : "Take a snapshot",
-                "text": "9.snapshots.md"
-            },
-            {
-                "title" : "Restore the snapshot",
-                "text": "10.snapshot-restore.md"
             }
         ],
         "intro": {
