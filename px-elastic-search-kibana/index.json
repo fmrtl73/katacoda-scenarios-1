@@ -1,8 +1,8 @@
 {
     "pathwayTitle": "Kubernetes",
     "icon": "fa-kubernetes",
-    "title": "HA PostgreSQL on Kubernets with Portworx",
-    "description": "Deploying a PostgreSQL database on Kubernetes using Portworx, showing HA failover scenario, expanding volume dynamically, and taking snapshots to recover from user error.",
+    "title": "Elastic Search and Kibana on Kubernets with Portworx",
+    "description": "Deploying an Elastic Search cluster on Kubernetes using Portworx, showing HA failover scenario, expanding volume dynamically, and taking snapshots to recover from user error.",
     "difficulty": "Intermediate",
     "details": {
         "steps": [
@@ -11,13 +11,13 @@
                 "text": "1.wait-k8s-px.md"
             },
             {
-                "title" : "Create volume for PostgreSQL",
+                "title" : "Create Storage Class",
                 "courseData": "background.sh",
-                "text": "2.px-postgres-vol.md"
+                "text": "2.create-vol.md"
             },
             {
-                "title" : "Deploy postgres",
-                "text": "3.postgres-app.md"
+                "title" : "Deploy Elastic Search",
+                "text": "3.deploy-app.md"
             },
             {
                 "title" : "Inspect the volume",
