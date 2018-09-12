@@ -1,8 +1,8 @@
 {
     "pathwayTitle": "Kubernetes",
     "icon": "fa-kubernetes",
-    "title": "Cassandra Stateful Set on Portworx",
-    "description": "Deploying a stateful Cassandra database on Kubernetes using Portworx, showing HA failover scenario, expanding volume dynamically, and taking snapshots to recover from user error.",
+    "title": "Elastic Search and Kibana on Kubernets with Portworx",
+    "description": "Deploying an Elastic Search cluster on Kubernetes using Portworx, showing HA failover scenario, expanding volume dynamically, and taking snapshots to recover from user error.",
     "difficulty": "Intermediate",
     "details": {
         "steps": [
@@ -11,40 +11,42 @@
                 "text": "1.wait-k8s-px.md"
             },
             {
-                "title" : "Create Cassandra StorageClass",
+                "title" : "Create Storage Class",
+                "courseData": "background.sh",
                 "text": "2.create-vol.md"
             },
             {
-                "title" : "Deploy cassandra",
-                "text": "3.cassandra-app.md"
+                "title" : "Deploy Elastic Search",
+                "text": "3.deploy-app.md"
             },
             {
                 "title" : "Inspect the volume",
                 "text": "4.px-vol-inspect.md"
             },
             {
-                "title" : "Create cassandra database",
-                "text": "5.cassandra-db.md"
+                "title" : "Create postgres database",
+                "text": "5.postgres-db.md"
             },
             {
-                "title" : "Delete cassandra instance",
-                "text": "6.cassandra-persistence.md"
+                "title" : "Delete postgres instance",
+                "text": "6.postgres-persistence.md"
             },
             {
-                "title" : "Validate cassandra database",
-                "text": "7.cassandra-check-data.md"
+                "title" : "Validate postgres database",
+                "text": "7.postgres-check-data.md"
             },
             {
-                "title" : "Scale the cluster",
-                "text": "8.scale.md"
+                "title" : "Expand the volume",
+                "text": "9.expand-volume.md",
+                "verify": "10.verify.sh"
             },
             {
-                "title" : "Take a group snapshot",
-                "text": "9.snapshots.md"
+                "title" : "Snapshots",
+                "text": "10.snapshots.md"
             },
             {
-                "title" : "Restore the group snapshot",
-                "text": "10.snapshot-restore.md"
+                "title" : "Validate",
+                "text": "11.snapshot-restore.md"
             }
         ],
         "intro": {
