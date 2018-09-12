@@ -21,12 +21,12 @@
                 "text": "3.create-volume.md"
             },
             {
-                "title" : "Deploy Redis Chart",
-                "text": "4.deploy-redis.md"
+                "title" : "Deploy ETCD Chart",
+                "text": "4.deploy-etcd.md"
             },
             {
-                "title" : "Fun with Redis",
-                "text": "6.have-some-fun.md"
+                "title" : "Fun with ETCD",
+                "text": "5.have-some-fun.md"
             },
             {
                 "title" : "HA Failover",
