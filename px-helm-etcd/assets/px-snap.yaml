@@ -7,4 +7,4 @@ metadata:
     portworx/snapshot-type: local
     portworx.selector/group-id: etcd
 spec:
-  persistentVolumeClaimName: data-px-etcd-etdc-0
+  persistentVolumeClaimName: data-px-etcd-etcd-0
