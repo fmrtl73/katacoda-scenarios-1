@@ -4,7 +4,7 @@ metadata:
     name: px-ha-sc
 provisioner: kubernetes.io/portworx-volume
 parameters:
-   repl: "2"
-   io_profile: "sequential"
+   repl: "3"
+   io_profile: "db"
    io_priority: "high"
-   group: "minio"
+   group: "etcd"
