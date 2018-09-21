@@ -2,7 +2,7 @@
     "pathwayTitle": "Kubernetes",
     "icon": "fa-kubernetes",
     "title": "Deploy Minio on Portworx volumes using Helm",
-    "description": "Deploy Minio and use it for cloud backups",
+    "description": "Deploy Minio on Kubernetes using Portworx volumes and use it for cloud backups.",
     "difficulty": "Intermediate",
     "details": {
         "steps": [
