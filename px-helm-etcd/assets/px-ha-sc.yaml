@@ -6,5 +6,6 @@ provisioner: kubernetes.io/portworx-volume
 parameters:
    repl: "2"
    io_profile: "sequential"
+   aggregation_level: "3"
    io_priority: "high"
    group: "minio"
